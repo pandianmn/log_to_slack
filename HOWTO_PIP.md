@@ -13,7 +13,9 @@ So that the package maintainer won't have to google it every time.
 6. git push
 7. git tag X.X.X -m "vX.X.X"
 8. git push --tags
-9. python setup.py sdist upload -r pypitest
-10. Check that things look right on https://test.pypi.org/project/slacker_log_handler/
-11. python setup.py sdist upload -r pypi
-12. Check that things look right on https://pypi.org/project/slacker-log-handler/
+9. python -m build
+10. twine check dist/*
+11. twine upload -r testpypi dist/*
+12. Check that things look right on https://test.pypi.org/project/log-to-slack/
+13. twine upload dist/*
+14. Check that things look right on https://pypi.org/project/log-to-slack/

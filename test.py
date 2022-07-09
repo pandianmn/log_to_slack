@@ -11,8 +11,6 @@ slack_handler = SlackLogHandler(
     SLACK_API_TOKEN,
     SLACK_CHANNEL,
     stack_trace=True,
-    ping_users=["@ose", "slackbot"],
-    ping_level=logging.ERROR,
 )
 
 logger = logging.getLogger("debug_application")
