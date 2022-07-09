@@ -1,20 +1,20 @@
 log_to_slack
 ===================
 
-.. .. image:: https://img.shields.io/pypi/v/slacker_log_handler.svg?style=flat-square
-..     :target: https://pypi.python.org/pypi/slacker_log_handler
+.. image:: https://img.shields.io/pypi/v/log-to-slack.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/log-to-slack
 
-.. .. image:: https://img.shields.io/pypi/wheel/slacker_log_handler.svg?style=flat-square
-..     :target: https://pypi.python.org/pypi/slacker_log_handler
+.. image:: https://img.shields.io/pypi/wheel/log-to-slack.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/log-to-slack
 
-.. .. image:: https://img.shields.io/pypi/format/slacker_log_handler.svg?style=flat-square
-..     :target: https://pypi.python.org/pypi/slacker_log_handler
+.. image:: https://img.shields.io/pypi/format/log-to-slack.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/log-to-slack
 
-.. .. image:: https://img.shields.io/pypi/pyversions/slacker_log_handler.svg?style=flat-square
-..     :target: https://pypi.python.org/pypi/slacker_log_handler
+.. image:: https://img.shields.io/pypi/pyversions/log-to-slack.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/log-to-slack
 
-.. .. image:: https://img.shields.io/pypi/status/slacker_log_handler.svg?style=flat-square
-..     :target: https://pypi.python.org/pypi/slacker_log_handler
+.. image:: https://img.shields.io/pypi/status/log-to-slack.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/log-to-slack
 
 Python log handler that posts to a Slack channel. Posts to the Slack API
 using https://github.com/slackapi/python-slack-sdk
@@ -69,7 +69,7 @@ or they may be lost entirely.
 Example Python logging handler
 ------------------------------
 
-This is how you use `slacker_log_handler` as a regular Python logging handler.
+This is how you use `log-to-slack` as a regular Python logging handler.
 This example will send a error message to a slack channel.
 
 .. code-block:: python
