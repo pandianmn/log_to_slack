@@ -126,6 +126,4 @@ License
 
 Apache 2.0
 
-Slacker is also under Apache 2.0.
-
 See also: https://api.slack.com/terms-of-service
